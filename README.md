@@ -1,4 +1,4 @@
 Hello uhh, welcome to my first project! Its a goofy one i know, im learning.
 
 
-   ![2031-monke-serious](https://user-images.githubusercontent.com/79875716/217945507-fdb9d959-2b3b-49ba-bb44-344452aff41f.png)
+![download](https://user-images.githubusercontent.com/79875716/217946466-a1686bd7-5800-40aa-8c2e-d5223e10d8b4.jpg)
