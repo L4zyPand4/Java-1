@@ -15,19 +15,32 @@ public class Main {
             System.out.println("Welcome!");
         }
 
-        System.out.println("What is your name?");
-        String name = INPUT.nextLine();
-        if(name == INPUT.nextLine()){
-            System.out.println("Hello," + name);
-        }
+        System.out.println("What is your name? (Without spaces) ");
+        String name = INPUT.next();
+           if(name != null){
+            System.out.println("Name confirmed.");
+           }
 
-        else{
-            System.out.println("Invalid name.");
+           else{
+            System.out.println("ERROR");
             return;
-        }
+           }
 
+        System.out.println("Where are you from?");
+           String country = INPUT.next();
+           if(country.equalsIgnoreCase("Iran")) {
+              System.out.println("سلام");
+           }
 
+           else if(country.equalsIgnoreCase("Canada")){
+               System.out.println("Hello");
+           }
+           else if (country.equalsIgnoreCase("Germany")) {
+               System.out.println("Hallo");
+           }
 
-
+           else{
+               System.out.println("Unknown region.");
+           }
     }
 }
