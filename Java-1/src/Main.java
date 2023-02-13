@@ -29,14 +29,14 @@ public class Main {
         System.out.println("Where are you from?");
            String country = INPUT.next();
            if(country.equalsIgnoreCase("Iran")) {
-              System.out.println("سلام");
+              System.out.println("سلام" + " " + name);
            }
 
            else if(country.equalsIgnoreCase("Canada")){
-               System.out.println("Hello");
+               System.out.println("Hello" + " " + name);
            }
            else if (country.equalsIgnoreCase("Germany")) {
-               System.out.println("Hallo");
+               System.out.println("Hallo" + " " + name);
            }
 
            else{
